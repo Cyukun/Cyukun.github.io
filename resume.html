@@ -12,17 +12,52 @@ body{
 	font-size:15px;
 	color:#333;
 	}
-h1{
-	font-size:56px;
-	color:#09C;
-	margin:30px 25px 30px ;
+#header{
+	height:180px;
+	background-color:#0CC;
+	color:#fff;
+	box-shadow:0 5px 10px #999999;
+}
+#header>h1{
+	font-size:48px;
+	padding-top:20px;
+	padding-left:42px;
+}
+#header>ul{
+	list-style-type:none;
+	padding-left:32px;
+	overflow:hidden;
+	margin-top:45px;
+}
+#header>ul>li{
+	float:left;
+}
+a.navt:link,a.navt:visited{
+	display:block;
+	/*background-color:#099;*/
+	width:70px;
+	font-weight:bold;
+	font-size:22px;
+	color:#FFF;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
 	}
-hr{
+a.navt:hover,a.navt:active{
+	background-color:#069;
+	color:#CC3;
+    }	
+h2{
+	font-size:36px;
+	color:#09C;
+	margin:30px 50px 30px ;
+	}
+/*hr{
 	margin: 20px 23px;
     border: 0;
     border-top: 1px solid #eeeeee;
     border-bottom: 1px solid #ffffff;
-	}
+	}*/
 #wrapper{
 	margin-top:33px;
 	margin-left:45px;
@@ -69,7 +104,16 @@ a:active{color:#069;text-decoration:underline;}
 </head>
 
 <body>
-<h1><a href="#">Resume/notes</a></h1><hr />
+<div id="header">
+<h1>Cyukun'Blog</h1>
+<ul>
+<li><a class="navt" href="/index.html">主页</a></li>
+<li><a class="navt" href="#">文档</a></li>
+<li><a class="navt" href="/resume.html">简历</a></li>
+<li><a class="navt" href="/about.html">关于</a></li>
+</ul>
+</div>
+<h2><a href="#">Resume/Cyukun</a></h2>
 <div id="wrapper">
 <dl>
     <dt>Name</dt>
