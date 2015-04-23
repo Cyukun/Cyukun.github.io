@@ -31,21 +31,23 @@ body{
 #header>ul>li{
 	float:left;
 }
+a{text-decoration:none;}
 a.navt:link,a.navt:visited{
 	display:block;
-	/*background-color:#099;*/
 	width:70px;
 	font-weight:bold;
 	font-size:22px;
 	color:#FFF;
 	text-align:center;
 	padding:4px;
-	text-decoration:none;
 	}
 a.navt:hover,a.navt:active{
 	background-color:#069;
 	color:#CC3;
     }
+a.title2:link,a.title2:visited,a.title2:hover,a.title2:active{
+	color:#FFF;
+	}
 #main{
 	text-align:left;
 	padding-left:100px;
@@ -61,10 +63,9 @@ a.navt:hover,a.navt:active{
 
 <body>
 <div id="header">
-<h1>Cyukun'Blog</h1>
+<h1><a class="title2" href="https://github.com/Cyukun/Cyukun.github.io" target="_blank">Cyukun'Blog</a></h1>
 <ul>
 <li><a class="navt" href="/index.html">主页</a></li>
-<li><a class="navt" href="#">文档</a></li>
 <li><a class="navt" href="/resume.html">简历</a></li>
 <li><a class="navt" href="/about.html">关于</a></li>
 </ul>
@@ -72,7 +73,7 @@ a.navt:hover,a.navt:active{
 <div id="main">
 <h2>Who am I</h2>
 <h3>联系方式</h3>
-<p>QQ:1336086203<br />手机：130****1597<br />Github:<a href="https://github.com/Cyukun">Cyukun</a><br />邮箱：<a href="mailto:mkd999fqs@sina.com">mkd999fqs@sina.com</a></p>
+<p>QQ:1336086203<br />手机：130****1597<br />Github:<a href="https://github.com/Cyukun" target="_blank">Cyukun</a><br />邮箱：<a href="mailto:mkd999fqs@sina.com">mkd999fqs@sina.com</a></p>
 <h3>目前状况</h3>
 <p>努力学习中，希望谋求一份web前端工作！</p>
 </div>
