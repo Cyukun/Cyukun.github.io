@@ -1,0 +1,41 @@
+
+/*导航栏样式*/
+#header{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	height:180px;
+	background-color:#0CC;
+	color:#fff;
+	box-shadow:0 5px 10px #999999;
+}
+#header>h1{
+	font-size:48px;
+	padding-top:20px;
+	padding-left:42px;
+}
+#header>ul{
+	list-style-type:none;
+	padding-left:32px;
+	overflow:hidden;
+	margin-top:45px;
+}
+#header>ul>li{
+	float:left;
+}
+a.navt:link,a.navt:visited{
+	display:block;
+	width:70px;
+	font-weight:bold;
+	font-size:22px;
+	color:#FFF;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	}
+a.navt:hover,a.navt:active{
+	background-color:#069;
+	color:#CC3;
+    }
+a.title2:link,a.title2:visited,a.title2:hover,a.title2:active{
+	text-decoration:none;
+	color:#FFF;
+	}
